@@ -61,6 +61,10 @@ Yearly patterns:
 ![Yearly](https://raw.githubusercontent.com/AttitudeAdjuster/Analysis-and-Modelling-of-Urban-Footfall-Data-in-York-City-Centre/master/img/polar_yearly.png)
 
 
+Multi Year patterns (with occupancy)
+![Boxplots](https://raw.githubusercontent.com/AttitudeAdjuster/Analysis-and-Modelling-of-Urban-Footfall-Data-in-York-City-Centre/master/img/Boxplotswith%20occupancy.png)
+
+
 
 
 
