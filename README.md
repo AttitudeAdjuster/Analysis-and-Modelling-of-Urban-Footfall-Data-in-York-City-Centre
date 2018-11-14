@@ -72,10 +72,31 @@ We looked at simple Random Forest, Bagged trees and Boosted trees and measured, 
 The best model was Bagged trees whose hyper-parameters were optimized though 5-fold cross-validation randomized search.
 As we suspected, the best results were for Coney street and Stonegate. Indeed, we saw earlier that the k-means clustering of their weekly time series showed they have the less complex dynamics.<br>
 
-
+<b>Test set statistics:</b>
 ![result table](https://raw.githubusercontent.com/AttitudeAdjuster/Analysis-and-Modelling-of-Urban-Footfall-Data-in-York-City-Centre/master/img/excelresultsRF.png)
 
+<b>Test set results:</b>
+![result graphs](https://raw.githubusercontent.com/AttitudeAdjuster/Analysis-and-Modelling-of-Urban-Footfall-Data-in-York-City-Centre/master/img/Results_test_random.png)
 
+The graph shows that although errors are mainly distributed around +/-10% of actual values, there are some occasional large divergences. The model struggles to predict larger values and the predicted distribution is narrower than the actual distribution.
+ 
+<b>QQplots of actual residuals (top) and relative residuals:</b>
+![qqplots](https://raw.githubusercontent.com/AttitudeAdjuster/Analysis-and-Modelling-of-Urban-Footfall-Data-in-York-City-Centre/master/img/qqplots_gbr.png)
+QQplots show that residuals were close to be normally distributed for average values but with slightly heavier tails (figure 14). Effectively the model over-predicts average values and under-predicts extreme values.
+One of the advantages of the cross-validation method used for Bagged trees is that it provides estimates of feature “importance”, defined as how much a given feature contributes to reducing the out-of-bag error during the cross-validation runs, This highlighted the major role played by our added features, notably the value of footfall the previous week.
+
+<b>Features Importances:</b>
+![](https://raw.githubusercontent.com/AttitudeAdjuster/Analysis-and-Modelling-of-Urban-Footfall-Data-in-York-City-Centre/master/img/featimp.png)
+
+
+## Conclusions
+This study helped us answer some of our research questions: 
+* There is an identifiable intrinsic structure to the footfall dynamic for a given street, with clear weekly patterns. 
+* Footfall is loosely correlated to occupancy rates. Our models confirm the poor predictive power of this feature. Footfall levels might be a predictor variable for occupancy rates and not the other way-round.
+* The time series are very auto-correlated on a week-on-week basis and we also highlighted on a yearly time scale
+* Our machine learning models provide reasonably good estimates of footfall given the features we selected.
+This model could be useful for good daily estimates of footfall. Its strengths are simplicity and performance while its weaknesses are the requirement to keep track of actual footfall numbers and source occupancy rates.
+There are many avenues for further exploration that are beyond the scope of this quick analysis, notably, the impacts of different scaling options, removing outliers or not, and removing some of the less explanatory variables, adding a calendar etc….
 
 
 
