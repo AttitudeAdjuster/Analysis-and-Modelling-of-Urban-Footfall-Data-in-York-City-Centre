@@ -10,7 +10,7 @@ regularised and non-regularised linear regression models on this augmented datas
 
 
 ## Overview
-![Camera Locations]()
+![Camera Locations](https://raw.githubusercontent.com/AttitudeAdjuster/Analysis-and-Modelling-of-Urban-Footfall-Data-in-York-City-Centre/master/img/CamerasLoc.png)
 Footfall data is automatically collected and calculated from street cameras in 5 distinct locations in the centre of York<br>
 We want to analyse the data, correlate it with other data (weather, seasonality, and commercial venues occupancy rates) to see<br> how precisely we can model it. <br>
 We sourced the data from the following repositories:
