@@ -41,28 +41,33 @@ Some of the analytical questions we hope to answer are:
 ![Weather](https://raw.githubusercontent.com/AttitudeAdjuster/Analysis-and-Modelling-of-Urban-Footfall-Data-in-York-City-Centre/master/img/WeatherData%20Conso.png)
 
 ### Occupancy data
-<U>Raw data:</U>
+<b>Raw data:</b>
 ![Raw Occcupancy](https://raw.githubusercontent.com/AttitudeAdjuster/Analysis-and-Modelling-of-Urban-Footfall-Data-in-York-City-Centre/master/img/occupancy_example.png)
 
-<U>Occupancy Ratios as time series computed from raw data:</U>
+<b>Occupancy Ratios as time series computed from raw data:</b>
 ![Occupancy Ratio](https://raw.githubusercontent.com/AttitudeAdjuster/Analysis-and-Modelling-of-Urban-Footfall-Data-in-York-City-Centre/master/img/OccupancyData.png)
 
 ### Footfall data
-<U>Time serie visualisation:</U>
+<b>Time serie visualisation:</b>
 ![TS](https://raw.githubusercontent.com/AttitudeAdjuster/Analysis-and-Modelling-of-Urban-Footfall-Data-in-York-City-Centre/master/img/FootfallMay2017.png)
 
-<U>K_means clustering to reveal weekly dynamics per street:</U>
+<b>K_means clustering to reveal weekly dynamics per street:</b>
 ![Week Clusters](https://raw.githubusercontent.com/AttitudeAdjuster/Analysis-and-Modelling-of-Urban-Footfall-Data-in-York-City-Centre/master/img/week_clusters.png)
 
-<U>Week-on-week autocorrelation plots:</U>
+<b>Week-on-week autocorrelation plots:</b>
 ![Auto correl](https://raw.githubusercontent.com/AttitudeAdjuster/Analysis-and-Modelling-of-Urban-Footfall-Data-in-York-City-Centre/master/img/Autocorrelone.png)
 
-<U>Yearly patterns:</U>
+<b>Yearly patterns:</b>
 ![Yearly](https://raw.githubusercontent.com/AttitudeAdjuster/Analysis-and-Modelling-of-Urban-Footfall-Data-in-York-City-Centre/master/img/polar_yearly.png)
 
 
-<U>Multi Year patterns (with occupancy)</U>
+<b>Multi Year patterns (with occupancy)</b>
 ![Boxplots](https://raw.githubusercontent.com/AttitudeAdjuster/Analysis-and-Modelling-of-Urban-Footfall-Data-in-York-City-Centre/master/img/Boxplotswith%20occupancy.png)
+
+
+## Model
+ffall(t) = F[ffall(t-7), wkday(t), daystoXmas(t), temp(t), rain(t), occ(t)] <br>
+
 
 
 
