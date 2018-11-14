@@ -42,7 +42,7 @@ Raw data:
 
 #### Occupancy data
 Raw data:
-![Raw Occcupancy]9https://raw.githubusercontent.com/AttitudeAdjuster/Analysis-and-Modelling-of-Urban-Footfall-Data-in-York-City-Centre/master/img/occupancy_example.png)
+![Raw Occcupancy](https://raw.githubusercontent.com/AttitudeAdjuster/Analysis-and-Modelling-of-Urban-Footfall-Data-in-York-City-Centre/master/img/occupancy_example.png)
 
 Occupancy Ratios:
 ![Occupancy Ratio](https://raw.githubusercontent.com/AttitudeAdjuster/Analysis-and-Modelling-of-Urban-Footfall-Data-in-York-City-Centre/master/img/OccupancyData.png)
