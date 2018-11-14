@@ -37,31 +37,31 @@ Some of the analytical questions we hope to answer are:
 
 ## ETL and EDA
 ### Weather data
-Raw data:
+<U>Raw data:
 ![Weather](https://raw.githubusercontent.com/AttitudeAdjuster/Analysis-and-Modelling-of-Urban-Footfall-Data-in-York-City-Centre/master/img/WeatherData%20Conso.png)
 
 ### Occupancy data
-Raw data:
+<U>Raw data:</U>
 ![Raw Occcupancy](https://raw.githubusercontent.com/AttitudeAdjuster/Analysis-and-Modelling-of-Urban-Footfall-Data-in-York-City-Centre/master/img/occupancy_example.png)
 
-Occupancy Ratios as time series computed from raw data:
+<U>Occupancy Ratios as time series computed from raw data:</U>
 ![Occupancy Ratio](https://raw.githubusercontent.com/AttitudeAdjuster/Analysis-and-Modelling-of-Urban-Footfall-Data-in-York-City-Centre/master/img/OccupancyData.png)
 
 ### Footfall data
-<u>Time serie visualisation:</u>
+<U>Time serie visualisation:</U>
 ![TS](https://raw.githubusercontent.com/AttitudeAdjuster/Analysis-and-Modelling-of-Urban-Footfall-Data-in-York-City-Centre/master/img/FootfallMay2017.png)
 
-K_means clustering to reveal weekly dynamics per street:
+<U>K_means clustering to reveal weekly dynamics per street:</U>
 ![Week Clusters](https://raw.githubusercontent.com/AttitudeAdjuster/Analysis-and-Modelling-of-Urban-Footfall-Data-in-York-City-Centre/master/img/week_clusters.png)
 
-Week-on-week autocorrelation plots:
+<U>Week-on-week autocorrelation plots:</U>
 ![Auto correl](https://raw.githubusercontent.com/AttitudeAdjuster/Analysis-and-Modelling-of-Urban-Footfall-Data-in-York-City-Centre/master/img/Autocorrelone.png)
 
-Yearly patterns:
+<U>Yearly patterns:</U>
 ![Yearly](https://raw.githubusercontent.com/AttitudeAdjuster/Analysis-and-Modelling-of-Urban-Footfall-Data-in-York-City-Centre/master/img/polar_yearly.png)
 
 
-Multi Year patterns (with occupancy)
+<U>Multi Year patterns (with occupancy)</U>
 ![Boxplots](https://raw.githubusercontent.com/AttitudeAdjuster/Analysis-and-Modelling-of-Urban-Footfall-Data-in-York-City-Centre/master/img/Boxplotswith%20occupancy.png)
 
 
