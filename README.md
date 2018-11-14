@@ -48,7 +48,7 @@ Occupancy Ratios as time series computed from raw data:
 ![Occupancy Ratio](https://raw.githubusercontent.com/AttitudeAdjuster/Analysis-and-Modelling-of-Urban-Footfall-Data-in-York-City-Centre/master/img/OccupancyData.png)
 
 ### Footfall data
-Time serie visualisation:
+<u>Time serie visualisation:</u>
 ![TS](https://raw.githubusercontent.com/AttitudeAdjuster/Analysis-and-Modelling-of-Urban-Footfall-Data-in-York-City-Centre/master/img/FootfallMay2017.png)
 
 K_means clustering to reveal weekly dynamics per street:
