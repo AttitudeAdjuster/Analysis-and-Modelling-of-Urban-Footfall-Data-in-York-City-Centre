@@ -2,11 +2,7 @@
 
 ## Abstract
 This repository presents an overview of one of my projects completed during my MSc at City University.<br>
-In this project I look at footfall data from five distinct streets in the center of York (U.K.) <br>
-collected as daily times series. This data is supplemented with weather (temperature and precipitation) <br>
-and business occupancy time series as well as introducing auto-regressive features into the initial dataset <br>
-to model and predict daily footfall for each each street. I compare and contrast random forests and <br>
-regularised and non-regularised linear regression models on this augmented dataset.<br>
+In this project I look at footfall data from five distinct streets in the center of York (U.K.) collected as daily times series. This data is supplemented with weather (temperature and precipitation)and business occupancy time series as well as   introducing auto-regressive features into the initial dataset to model and predict daily footfall for each each street. I compare and contrast random forests and regularised and non-regularised linear regression models on this augmented dataset.<br>
 
 
 ## Overview
@@ -67,8 +63,17 @@ Some of the analytical questions we hope to answer are:
 
 ## Model
 ffall(t) = F[ffall(t-7), wkday(t), daystoXmas(t), temp(t), rain(t), occ(t)] <br>
+So we are looking at a regression model with footfall at time t as the response and 6 predictors which are: footfall at time t-7days, weekday at time t (categorical), number of days to next Christmas, temperature and precipitation level at time t and finallt occupancy ratio at time t.
 
 
+## Random Forest
+
+We looked at simple Random Forest, Bagged trees and Boosted trees and measured, accuracy, RMSE and R2 score over the test set.
+The best model was Bagged trees whose hyper-parameters were optimized though 5-fold cross-validation randomized search.
+As we suspected, the best results were for Coney street and Stonegate. Indeed, we saw earlier that the k-means clustering of their weekly time series showed they have the less complex dynamics.<br>
+
+
+![result table](https://raw.githubusercontent.com/AttitudeAdjuster/Analysis-and-Modelling-of-Urban-Footfall-Data-in-York-City-Centre/master/img/excelresultsRF.png)
 
 
 
